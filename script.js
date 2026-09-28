@@ -60,7 +60,7 @@ function respostaSelecionada(opcaoSelecionada) {
 
 function mostraResultado() {
     caixaPerguntas.textContent = `Em 2049, ${nome}`;
-    textoResultado.textContent = historiaFinal;
+    textoResultado.textContent = "Preservar a água é garantir o próprio futuro da humanidade. A transição para um modelo sustentável exige a conscientização de todos os cidadãos, o uso de tecnologias eficientes na produção e o compromisso firme dos governantes com o saneamento e a proteção dos mananciais. Economizar água hoje é a única atitude capaz de assegurar o bem-estar das próximas gerações e manter o equilíbrio do ecossistema terrestre.";
     caixaAlternativas.textContent = "";
     caixaResultado.classList.add("mostrar");
     botaoJogarNovamente.addEventListener("click", jogaNovamente);
